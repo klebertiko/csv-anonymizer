@@ -1,0 +1,6 @@
+NAME:
+  regex: '(?<=\w{1})\w'
+  replace: '*'
+EMAIL:
+  regex: '(?<=.{1}).(?=[^@]*?@)'
+  replace: '*'
